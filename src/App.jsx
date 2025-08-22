@@ -5,11 +5,7 @@ import CreateOrder from "./pages/CreateOrder.jsx";
 function App(){
     return(
         <>
-            <Button 
-                className="novoPedido"
-            >
-                Criar novo pedido
-            </Button>
+            
 
             <CreateOrder/>
             

@@ -9,18 +9,21 @@ function CreateOrder(){
             <div>
 
 
-
-                <p>{nomeDaEmpresa}</p>
-                <p>{dataPedido}</p>
-                <p>{numeroPedido}</p>
-                <p>{cliente}</p>
+                {/*Por conta dessa estrutura abaixo que não está exibindo no navegador (trabalhar ela)
+                    <p>{nomeDaEmpresa}</p>
+                    <p>{dataPedido}</p>
+                    <p>{numeroPedido}</p>
+                    <p>{cliente}</p>
+                */}
+                
 
 
                 
             </div>
             <div>
+                {/*Trabalhar melhor nessa estrutura de tabela*/}
                 <table>
-                    <tr>Primeiro</tr>
+                    <tr>Primeiro Item do pedido</tr>
                     <Button>Adicionar item</Button>
                 </table>
             </div>
